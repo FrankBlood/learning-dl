@@ -80,7 +80,7 @@ class OCRIter(object):
             label_names = ['softmax_label']
             # data_batch = OCRBatch(data_names, data_all, label_names, label_all)
             yield data_all, label_batch
-
+            
     def reset(self):
         pass
 
